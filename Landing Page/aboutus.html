@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        html {
+            box-sizing: border-box;}
+            *, *:before, *:after {
+            box-sizing: inherit;
+        }
+        .about-section {
+            padding: 50px;
+            text-align: center;
+            background-color: #474e5d;
+            color: white;
+        }
+        .aboutus{
+            text-align: center;
+        }
+        .container {
+            padding: 0 16px;
+        }
+        .column {
+            float: left;
+            width: 33.3%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+        }
+        .column img{
+            padding: 50px;
+        }
+        .column h2, .column p{
+            padding-left: 5%;
+        }
+        .column button{
+            margin-left: 5%;
+        }
+        .container::after, .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .button2{
+            border: 1px rgb(67, 3, 126);
+            /* outline: 0; */
+            background-color: #0074D9;
+            /* display: inline-block; */
+        }
+        .button2:hover {
+            background-color: #474e5d;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="about-section">
+        <h1>About Us</h1><br>
+            <p><strong>CODSOFT</strong> is a vibrant and diverse community that brings together individuals with similar objectives and ultimate goals. Oue main focus is on
+            <br> creating opportunities that span various areas, including leadership develpoment, learning, student engagement and fostering shared interests. </p>
+            <p>We believe in the power of leadership and its ability to drive positive change. That's why we provide platforms and resources for our community 
+            <br> members to devlop their leadership skills. Through mentorship programs, workshops and collaborative projects, we empower individuals <br>
+            to take on leadership roles and make a difference in their respective fields. </p>
+    </div>
+    <h2 style="text-align:center">Our Team</h2>
+    <div class="row">  
+        <div class="column">
+            <img src="businessman.jpeg" alt="">
+            <h2>Jane Doe</h2>
+            <p class="title">CEO & Founder</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem?</p>
+            <p>jane@example.com</p>
+            <button class="button2">Contact</button>
+        </div>
+        <div class="column">
+            <img src="businessman.jpeg" alt="">
+            <h2>Mike Ross</h2>
+            <p class="title">Art Director</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem?</p>
+            <p>mike@example.com</p>
+            <button class="button2">Contact</button>
+        </div>
+        <div class="column">           
+            <img src="businessman.jpeg" alt="">
+            <h2>John Ross</h2>
+            <p class="title">Designer</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem?</p>
+            <p>john@ross.com</p>
+            <button class="button2">Contact</button>
+        </div>
+    </div>  
+</body>
+</html>
